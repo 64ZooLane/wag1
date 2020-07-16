@@ -9,6 +9,7 @@
 ## Changelog
 
 BUG FIX: (v1.0.1) 16th July 2020 - Fixed regular wag1 command ghost pinging
+
 RELEASE: (v1.0.0) 16th July 2020 - First Release
 
 ## About
