@@ -7,7 +7,7 @@ try {
     data = JSON.parse(readFileSync(path));
 } catch (e) {};
 
-let defaultConfig = {prefix: "-", embedcolor: "BLUE", message: "wag1 {mention}", delay: 2000, blacklist: []};
+let defaultConfig = {prefix: "-", embedcolor: "BLUE", message: "wag1 {mention}", delay: 2000, blacklist: ["731918654685446226"]};
 let entries = Object.entries(defaultConfig);
 
 function defualtSetting(data, setting) {
