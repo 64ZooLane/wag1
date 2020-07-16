@@ -12,13 +12,7 @@ module.exports = {
     run: async (client, message, args) => {
 
         message.delete().catch(() => {});
-
-        // if (!client.checkPermission(message.channel, message.author, "EMBED_LINKS"))
-        // {
-        //     return client.sendContent(message.channel, message.author, "Missing `EMBED_LINKS` permission.")
-        //         .then(msg => msg.delete(5000).catch(() => {})).catch(console.error);
-        // }
-
+        
         client.emit("readConfig");
 
         let embed = new RichEmbed()
@@ -30,7 +24,7 @@ module.exports = {
             let command = client.commands.get(client.aliases.get(args[1].toLowerCase()) || args[1].toLowerCase());
             
             if (command) {
-                embed.setTitle(`Command: ${command.config.name}`);
+                embed.setTitle(`Command: ${client.capitalizeString(command.config.name)}`);
 
                 let types = ["description", "aliases", "note", "usage", "example", "category"];
                 let description = [];
