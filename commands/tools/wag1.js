@@ -65,7 +65,7 @@ module.exports = {
 			setTimeout(() => {
 				if (!checkBlacklist(channel)) return;
 
-				channel.send(msg).then(msg => msg.delete(client.config.delay * 0.5).catch(() => {})).then(() =>
+				channel.send(msg).then(() =>
 				{ 
 					i++;
 					if (client.mode == "debug") 
@@ -74,7 +74,7 @@ module.exports = {
 					if (i >= channels.length) {
 						if (client.mode == "debug") console.log(`Completed wag1 session for ${mention.username}`);
 						client.sendContent(message.channel, message.author, `Completed wag1 session for ${mention.username}`)
-							.catch(console.error);
+							.then(msg => msg.delete(5000).catch(() => {}).catch(console.error);
 					}
 				}).catch(console.error);
 
@@ -82,4 +82,3 @@ module.exports = {
 		});
   	}
 };
-	
