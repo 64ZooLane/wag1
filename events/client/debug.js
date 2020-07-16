@@ -1,0 +1,1 @@
+module.exports = async (client, debug) => { if (client.mode == "debug") console.log(debug); };  
