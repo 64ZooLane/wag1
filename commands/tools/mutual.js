@@ -6,8 +6,8 @@ module.exports = {
     	aliases: ["channels"],
         description: "Displays all mutual channels you have with a user",
         note: "This command may not function correctly if the user is not cached",
-        usage: "<cmd> <mention/id> [page]",
-        example: "mutual 600811457331986582 3",
+        usage: "<cmd> <mention/id>",
+        example: "mutual 600811457331986582",
     	category: "tools"
   	},
   	run: async (client, message, args) => {
