@@ -12,7 +12,7 @@
 
 ## About
 
-This tool was created to cause havoc across discord servers for the final months of selfbots existing :(
+This tool was created to have some fun with discord's api for the final months of selfbots existing :(
 
 ## Installation
 
