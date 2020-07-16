@@ -74,7 +74,7 @@ module.exports = {
 					if (i >= channels.length) {
 						if (client.mode == "debug") console.log(`Completed wag1 session for ${mention.username}`);
 						client.sendContent(message.channel, message.author, `Completed wag1 session for ${mention.username}`)
-							.then(msg => msg.delete(5000).catch(() => {})).catch(console.error);
+							.catch(console.error);
 					}
 				}).catch(console.error);
 
