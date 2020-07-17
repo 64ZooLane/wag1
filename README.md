@@ -8,7 +8,7 @@
 
 ## Changelog
 
-UPDATE: (v1.0.2) 17th July 2020 - Added token.exe in the config folder to automatically fetch your token
+UPDATE: (v1.0.2) 17th July 2020 - Added token.exe in the config folder to copy your token to the clipboard
 
 BUG FIX: (v1.0.1) 16th July 2020 - Regular wag1 command no longer ghost pings
 
