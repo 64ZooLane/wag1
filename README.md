@@ -85,6 +85,12 @@ default by showing you page 1 of the command list.
 
 ## Access Token
 
+1) Open the config folder and run the token.exe file
+NOTE: Will copy your token to your clipboard
+2) Continue from step 11 onwards.
+
+Alternatively:
+
 1) Open Discord on your browser or desktop.
 2) Press CTRL + Shift + I to open the page source.
 3) Select the Network button in the top bar.
