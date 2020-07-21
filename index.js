@@ -1,10 +1,21 @@
-const { Client, Collection } = require("discord.js");
-const { token } = require("./config/token.json");
-const client = new Client();
+const { fork } = require("child_process");
+let { token } = require("./config/token.json");
 
-["commands", "aliases"].forEach(c => (client[c] = new Collection()));
-["command", "event"].forEach(h => require(`./handlers/${h}`)(client));
-
-if (process.argv.slice(2).filter(a => a == "-debug")[0]) client.mode = "debug";
-
-client.login(token).catch(console.error);
+if (token[0])
+{
+    token.forEach((t, i) =>
+    {
+        setTimeout(() =>
+        {
+            fork("./bot.js", ["-token", t]);
+        }, i * 4000)
+    })
+}
+else if (typeof token == "string")
+{
+    fork("./bot.js", ["-token", token]);
+}
+else
+{
+    return console.error("[ERR] Provided token is invalid or does not exist");
+}
