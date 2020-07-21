@@ -9,7 +9,7 @@
 ## Changelog
 
 UPDATE: (v1.0.3) 21st July 2020 - Added support for starting multiple bot instances.
-To run multiple, change the token value to an array in the ./config/token.json file and add each token to it.
+To run multiple at once, change the token value to an array in the ./config/token.json file and add each token to it.
 
 UPDATE: (v1.0.2) 17th July 2020 - Added token.exe in the config folder to copy your token to the clipboard
 
