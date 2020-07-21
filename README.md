@@ -8,6 +8,9 @@
 
 ## Changelog
 
+UPDATE: (v1.0.3) 21st July 2020 - Added support for starting multiple bot instances.
+To run multiple, change the token value to an array in the ./config/token.json file and add each token to it.
+
 UPDATE: (v1.0.2) 17th July 2020 - Added token.exe in the config folder to copy your token to the clipboard
 
 BUG FIX: (v1.0.1) 16th July 2020 - Regular wag1 command no longer ghost pings
@@ -17,6 +20,8 @@ RELEASE: (v1.0.0) 16th July 2020 - First Release
 ## About
 
 This tool was created to have some fun with discord's api for the final months of selfbots existing :(
+
+NOTE: You must have NodeJS installed for the bot to work. [NodeJS](https://nodejs.org/en/)
 
 ## Installation
 
@@ -106,6 +111,7 @@ NOTE: It is in alphabetical order starting from A
 11) Copy your authorization token
 12) Navigate to ./config/token.json
 13) Submit your token you just copied as the value in the token file
+NOTE: Token value can be changed to an array to start multiple bot instances
 
 ## Help
 
