@@ -12,3 +12,4 @@ if (tokenArg >= 0) {
 };
 
 if (token) client.login(token).catch(console.error);
+else return console.error("[ERR] Provided token is invalid or does not exist");
