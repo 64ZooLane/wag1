@@ -21,7 +21,7 @@ RELEASE: (v1.0.0) 16th July 2020 - First Release
 
 This tool was created to have some fun with discord's api for the final months of selfbots existing :(
 
-NOTE: You must have NodeJS installed for the bot to work. [NodeJS](https://nodejs.org/en/)
+NOTE: NodeJS is required to run the bot. [NodeJS](https://nodejs.org/en/)
 
 ## Installation
 
