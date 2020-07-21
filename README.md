@@ -92,7 +92,7 @@ default by showing you page 1 of the command list.
 
 1) Open the config folder and run the token.exe file
 NOTE: Will copy your token to your clipboard
-2) Continue from step 11 onwards.
+2) Continue from step 12 onwards.
 
 Alternatively:
 
