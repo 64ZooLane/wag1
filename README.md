@@ -8,6 +8,8 @@
 
 ## Changelog
 
+BUG FIX: v(1.0.4) 23rd July 2020 - Fixed bug with multiple bot instances not logging in correctly
+
 UPDATE: (v1.0.3) 21st July 2020 - Added support for starting multiple bot instances.
 To run multiple at once, change the token value to an array in the ./config/token.json file and add each token to it.
 
