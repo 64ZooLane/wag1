@@ -1,7 +1,7 @@
 const { fork } = require("child_process");
 let { token } = require("./config/token.json");
 
-if (token[0])
+if (Array.isArray(token) && token[1])
 {
     token.forEach((t, i) =>
     {
