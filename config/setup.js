@@ -45,6 +45,7 @@ function ask()
         if (data == "n")
         {
             console.log();
+            writeFileSync("./config/tokens.txt", "");
             return process.exit();
         }
         else if (data == "y")
