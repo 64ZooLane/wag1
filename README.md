@@ -105,27 +105,27 @@ default by showing you page 1 of the command list.
 ## Access Token
 
 ### Option 1
-- Run setup.bat and type "y" when it asks to fetch and set all your user tokens
+- Run setup.bat and type `y` when it asks to fetch and set all your user tokens
 
 OR
-- Run setup.exe in config folder and type "y" to writing tokens to config file
+- Run setup.exe in config folder and type `y` to writing tokens to config file
 
 ### Option 2
-1. Open the config folder and run the token.exe file and respond with "y" with copying tokens to clipboard
+1. Open the config folder and run the token.exe file and respond with `y` with copying tokens to clipboard
 2. Continue from step 12 in Option 3, onwards.
 
 ### Option 3
 1. Open Discord on your browser or desktop.
-2. Press CTRL + Shift + I to open the page source.
+2. Press `CTRL + Shift + I` to open the page source.
 3. Select the Network button in the top bar.
-4. Filter by ALL (default)
-5. Press CTRL + R - This will reload your discord.
+4. Filter by `ALL` (default)
+5. Press `CTRL + R` - This will reload your discord.
 6. Type `science` into the filter.
 7. Select the one nearest the top.
 8. Press the button named Headers
 9. Scroll down to the Request Headers
-10. Find "authorization" in the list.
-NOTE: It is in alphabetical order starting from A
+10. Find `authorization` in the list.
+- NOTE: It is in alphabetical order starting from A
 11. Copy your authorization token
 
 12. Navigate to ./config/tokens.txt (If the file does not exist, you may need to make one yourself)
