@@ -8,16 +8,27 @@
 
 ## Changelog
 
-BUG FIX: v(1.0.4) 23rd July 2020 - Fixed bug with multiple bot instances not logging in correctly
+UPDATE: (v1.0.5) 23rd July 2020 
+- Changed the way tokens are stored (uses a txt file now instead of json)
+- You are now given the option to write all tokens to the token file
+- You are now given the option to copy all tokens to clipboard (connected with commas)
+- setup.bat will now ask you if you want to write all tokens to the token config
+- Updated README [Access Token](#access-token)
 
-UPDATE: (v1.0.3) 21st July 2020 - Added support for starting multiple bot instances.
-To run multiple at once, change the token value to an array in the ./config/token.json file and add each token to it.
+BUG FIX: (v1.0.4) 23rd July 2020
+- Fixed bug with multiple bot instances not logging in correctly
 
-UPDATE: (v1.0.2) 17th July 2020 - Added token.exe in the config folder to copy your token to the clipboard
+UPDATE: (v1.0.3) 21st July 2020
+- Added support for starting multiple bot instances.
 
-BUG FIX: (v1.0.1) 16th July 2020 - Regular wag1 command no longer ghost pings
+UPDATE: (v1.0.2) 17th July 2020 
+- Added token.exe in the config folder to copy your tokens to the clipboard
 
-RELEASE: (v1.0.0) 16th July 2020 - First Release
+BUG FIX: (v1.0.1) 16th July 2020 
+- Regular wag1 command no longer ghost pings
+
+RELEASE: (v1.0.0) 16th July 2020 
+- First Release
 
 ## About
 
@@ -92,12 +103,14 @@ default by showing you page 1 of the command list.
 
 ## Access Token
 
-1) Open the config folder and run the token.exe file
-NOTE: Will copy your token to your clipboard
-2) Continue from step 12 onwards.
+- Option 1
+1) Run token.exe in the token folder and respond with "y" to writing tokens
 
-Alternatively:
+- Option 2
+1) Open the config folder and run the token.exe file and respond with "y" with copying tokens to clipboard
+2) Continue from step 12 in Option 3, onwards.
 
+- Option 3
 1) Open Discord on your browser or desktop.
 2) Press CTRL + Shift + I to open the page source.
 3) Select the Network button in the top bar.
@@ -109,11 +122,18 @@ Alternatively:
 9) Scroll down to the Request Headers
 10) Find "authorization" in the list.
 NOTE: It is in alphabetical order starting from A
-
 11) Copy your authorization token
-12) Navigate to ./config/token.json
-13) Submit your token you just copied as the value in the token file
-NOTE: Token value can be changed to an array to start multiple bot instances
+
+12) Navigate to ./config/tokens.txt (If the file does not exist, you may need to make one yourself)
+13) Submit your token(s) into the text file split up with a newline.
+
+- Example 1 token.txt file:
+token1
+token2
+token3
+
+- Example 2 token.txt file:
+token1
 
 ## Help
 
