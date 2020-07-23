@@ -3,7 +3,7 @@
 - [About](#about)
 - [Installation](#installation)
 - [Example Usage](#example-usage)
-- [Access Token](#access-token)
+- [Set Your Token](#token)
 - [Help](#help)
 
 ## Changelog
@@ -13,7 +13,7 @@
 - You are now given the option to write all tokens to the token file
 - You are now given the option to copy all tokens to clipboard (connected with commas)
 - setup.bat will now ask you if you want to write all tokens to the token config
-- Updated README data for [Access Token](#access-token)
+- Updated README data on how to [Set Your Token](#token)
 - Cleaned up README (added)
 
 ### BUG FIX: (v1.0.4) 23rd July 2020
@@ -35,7 +35,7 @@
 
 This tool was created to have some fun with discord's api for the final months of selfbots existing :(
 
-NOTE: NodeJS is required to run the bot. [NodeJS](https://nodejs.org/en/)
+NOTE: [NodeJS](https://nodejs.org/en/) is required to run the bot
 
 ## Installation
 
@@ -44,7 +44,7 @@ Run the setup.bat file in the main directory to create the config files and down
 If you are missing this file, open a terminal and execute `npm run setup`
 
 Navigate to config/token.json and add your user token.
-If you do not know how to access your user token, follow this link [Access Token](#access-token)
+If you do not know how to access your user token, follow this link and learn how to [Set Your Token](#token)
 
 ## Example Usage
 
@@ -102,7 +102,7 @@ page number will take you to the specified page in the command list (Not very us
 currently only 8 commands as of v1.0.0). Finally, if you do not provide a page or command argument, it will
 default by showing you page 1 of the command list.
 
-## Access Token
+## Set Your Token
 
 ### Option 1
 - Run setup.bat and type `y` when it asks to fetch and set all your user tokens
@@ -125,7 +125,7 @@ OR
 8. Press the button named Headers
 9. Scroll down to the Request Headers
 10. Find `authorization` in the list.
-- NOTE: It is in alphabetical order starting from A
+NOTE: It is in alphabetical order starting from A
 11. Copy your authorization token
 
 12. Navigate to ./config/tokens.txt (If the file does not exist, you may need to make one yourself)
