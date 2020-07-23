@@ -1,4 +1,4 @@
-## Table of contents
+# Table of contents
 - [Changelog](#changelog)
 - [About](#about)
 - [Installation](#installation)
@@ -6,7 +6,7 @@
 - [Access Token](#access-token)
 - [Help](#help)
 
-## Changelog
+# Changelog
 
 UPDATE: (v1.0.5) 23rd July 2020 
 - Changed the way tokens are stored (uses a txt file now instead of json)
@@ -30,13 +30,13 @@ BUG FIX: (v1.0.1) 16th July 2020
 RELEASE: (v1.0.0) 16th July 2020 
 - First Release
 
-## About
+# About
 
 This tool was created to have some fun with discord's api for the final months of selfbots existing :(
 
 NOTE: NodeJS is required to run the bot. [NodeJS](https://nodejs.org/en/)
 
-## Installation
+# Installation
 
 Run the setup.bat file in the main directory to create the config files and download all required packages.
 
@@ -45,7 +45,7 @@ If you are missing this file, open a terminal and execute `npm run setup`
 Navigate to config/token.json and add your user token.
 If you do not know how to access your user token, follow this link [Access Token](#access-token)
 
-## Example Usage
+# Example Usage
 
 `-add blacklist 731918654685446226 731918655331238004 731918655776096346`
 `-remove blacklist 731918655331238004 731918655776096346`
@@ -101,18 +101,18 @@ page number will take you to the specified page in the command list (Not very us
 currently only 8 commands as of v1.0.0). Finally, if you do not provide a page or command argument, it will
 default by showing you page 1 of the command list.
 
-## Access Token
+# Access Token
 
-# Option 1
+## Option 1
 - 1) Run setup.bat and type "y" when it asks to fetch and set all your user tokens
 OR
 - 1) Run setup.exe in config folder and type "y" to writing tokens to config file
 
-# Option 2
+## Option 2
 - 1) Open the config folder and run the token.exe file and respond with "y" with copying tokens to clipboard
 - 2) Continue from step 12 in Option 3, onwards.
 
-# Option 3
+## Option 3
 - 1) Open Discord on your browser or desktop.
 - 2) Press CTRL + Shift + I to open the page source.
 - 3) Select the Network button in the top bar.
@@ -123,21 +123,21 @@ OR
 - 8) Press the button named Headers
 - 9) Scroll down to the Request Headers
 - 10) Find "authorization" in the list.
-# NOTE: It is in alphabetical order starting from A
+NOTE: It is in alphabetical order starting from A
 - 11) Copy your authorization token
 
 - 12) Navigate to ./config/tokens.txt (If the file does not exist, you may need to make one yourself)
 - 13) Submit your token(s) into the text file split up with a newline.
 
-# Example 1 token.txt file:
+## Example 1 token.txt file:
 token1
 token2
 token3
 
-- Example 2 token.txt file:
+## Example 2 token.txt file:
 token1
 
-## Help
+# Help
 
 If you need support setting up the bot you can contact my discord 0.o#5319
 or leave an issue on the github page. https://github.com/64ZooLane/wag1/issues
