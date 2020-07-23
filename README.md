@@ -14,7 +14,7 @@
 - You are now given the option to copy all tokens to clipboard (connected with commas)
 - setup.bat will now ask you if you want to write all tokens to the token config
 - Updated README data on how to [Set Your Token](#set-your-token)
-- Cleaned up README (added)
+- Cleaned up README markdown
 
 ### BUG FIX: (v1.0.4) 23rd July 2020
 - Fixed bug with multiple bot instances not logging in correctly
