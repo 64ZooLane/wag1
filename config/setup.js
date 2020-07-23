@@ -33,7 +33,7 @@ ask();
 
 function ask()
 {
-    console.log("Would you like to automatically fetch all your user tokens? (y/n)")
+    console.log("Would you like to automatically fetch and set all your user tokens? (y/n)")
 
     process.stdin.resume();
     process.stdin.once("data", (data) =>
