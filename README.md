@@ -47,17 +47,17 @@ If you do not know how to access your user token, follow this link [Access Token
 
 # Example Usage
 
-`-add blacklist 731918654685446226 731918655331238004 731918655776096346`
-`-remove blacklist 731918655331238004 731918655776096346`
+- `-add blacklist 731918654685446226 731918655331238004 731918655776096346`
+- `-remove blacklist 731918655331238004 731918655776096346`
 
 You can provide as many arguments to add as you want. The same goes for removing items.
 When using the -add command, any items that already exist in the array will be filtered to
 prevent duplicates. And any items which do not exist when attempting to remove items will 
 also be ignored.
 
-`-set embedcolor BLUE`
-`-set delay 2000`
-`-set message wag1 {mention}! what are the chances of seeing you in {guildname} :o`
+- `-set embedcolor BLUE`
+- `-set delay 2000`
+- `-set message wag1 {mention}! what are the chances of seeing you in {guildname} :o`
 
 The embedcolor setting supports hex colour codes and some preconfigured colours such
 as RED, GREEN, BLUE, ORANGE etc.
@@ -70,8 +70,8 @@ The wag1 message currently has 5 preconfigured placeholders which can be accesse
 the following words inside of curly brackets {}. mention, username, nickname, channelname and guildname
 For example, the default message is "wag1 {mention}" which would look like this https://prnt.sc/tiowvn
 
-`-ghost @0.o#5319`
-`-wag1 600811457331986582`
+- `-ghost @0.o#5319`
+- `-wag1 600811457331986582`
 
 You can provide either a user mention or user id for both the wag1 and ghost commands. Both commands
 will post the configured message in every mutual channel you and the target user can both read and
@@ -83,7 +83,7 @@ If you you believe some channels are not being processed when running the comman
 a problem with user caching. For the time being just send them a dm and it should fix it. (Will try and
 find a permanent fix for this later).
 
-`-mutual 600811457331986582`
+- `-mutual 600811457331986582`
 
 The mutual command can also take either a mention or user id. It will display all mutual channels between
 you and the user and will take the blacklist into consideration when filtering the channels.
@@ -92,8 +92,8 @@ Like with the wag1 and ghost command, the caching issue will also apply here. Ho
 while testing, as long as you've had atleast one dm between eachother at any point in time, it should begin
 detecting all channels every time (Same goes for the wag1 and ghost command).
 
-`help wag1`
-`help 2`
+- `help wag1`
+- `help 2`
 
 The help command takes two optional arguments, page number and command. `help {command}` will display
 information such as aliases, examples, notes, descriptions etc for the specified command. Providing a
@@ -105,6 +105,7 @@ default by showing you page 1 of the command list.
 
 ## Option 1
 -  Run setup.bat and type "y" when it asks to fetch and set all your user tokens
+
 OR
 -  Run setup.exe in config folder and type "y" to writing tokens to config file
 
@@ -127,7 +128,7 @@ NOTE: It is in alphabetical order starting from A
 -  Copy your authorization token
 
 -  Navigate to ./config/tokens.txt (If the file does not exist, you may need to make one yourself)
--  Submit your token(s) into the text file split up with a newline (pressing enter).
+-  Submit your token(s) into the text file split up with a newline (pressing enter)
 
 # Help
 
