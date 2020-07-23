@@ -1,4 +1,5 @@
 const { accessSync, constants, readFileSync, writeFileSync} = require("fs");
+const { execFile } = require("child_process");
 let path = "./config/settings.json";
 let data = {};
 
@@ -28,14 +29,38 @@ for (setting of entries)
 
 writeFileSync(path, JSON.stringify(data, null, 4));
 
-let path2 = "./config/token.json";
-let data2 = {};
+ask();
 
-try {
-    accessSync(path2, constants.F_OK)
-    data2 = JSON.parse(readFileSync(path2));
-} catch (e) {};
+function ask()
+{
+    console.log("Would you like to automatically fetch all your user tokens? (y/n)")
 
-if (!data2.token || Array.isArray(data2.token)) data2.token = "";
+    process.stdin.resume();
+    process.stdin.once("data", (data) =>
+    {
+        process.stdin.pause();
 
-writeFileSync(path2, JSON.stringify(data2, null, 4));
+        data = data.toString().toLowerCase().replace("\r\n", "");
+
+        if (data == "n")
+        {
+            console.log();
+            return process.exit();
+        }
+        else if (data == "y")
+        {
+            execFile("./config/token.exe", ["-cmd"], (err, stdout, stderr) =>
+            {
+                if (err)
+                {
+                    throw err;
+                }
+                console.error(stdout)
+            });
+        }
+        else
+        {
+            return ask();
+        }
+    })
+}
