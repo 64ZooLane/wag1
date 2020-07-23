@@ -8,26 +8,26 @@
 
 # Changelog
 
-UPDATE: (v1.0.5) 23rd July 2020 
+## UPDATE: (v1.0.5) 23rd July 2020 
 - Changed the way tokens are stored (uses a txt file now instead of json)
 - You are now given the option to write all tokens to the token file
 - You are now given the option to copy all tokens to clipboard (connected with commas)
 - setup.bat will now ask you if you want to write all tokens to the token config
 - Updated README [Access Token](#access-token)
 
-BUG FIX: (v1.0.4) 23rd July 2020
+## BUG FIX: (v1.0.4) 23rd July 2020
 - Fixed bug with multiple bot instances not logging in correctly
 
-UPDATE: (v1.0.3) 21st July 2020
+## UPDATE: (v1.0.3) 21st July 2020
 - Added support for starting multiple bot instances.
 
-UPDATE: (v1.0.2) 17th July 2020 
+## UPDATE: (v1.0.2) 17th July 2020 
 - Added token.exe in the config folder to copy your tokens to the clipboard
 
-BUG FIX: (v1.0.1) 16th July 2020 
+## BUG FIX: (v1.0.1) 16th July 2020 
 - Regular wag1 command no longer ghost pings
 
-RELEASE: (v1.0.0) 16th July 2020 
+## RELEASE: (v1.0.0) 16th July 2020 
 - First Release
 
 # About
@@ -104,38 +104,30 @@ default by showing you page 1 of the command list.
 # Access Token
 
 ## Option 1
-- 1) Run setup.bat and type "y" when it asks to fetch and set all your user tokens
+-  Run setup.bat and type "y" when it asks to fetch and set all your user tokens
 OR
-- 1) Run setup.exe in config folder and type "y" to writing tokens to config file
+-  Run setup.exe in config folder and type "y" to writing tokens to config file
 
 ## Option 2
-- 1) Open the config folder and run the token.exe file and respond with "y" with copying tokens to clipboard
-- 2) Continue from step 12 in Option 3, onwards.
+-  Open the config folder and run the token.exe file and respond with "y" with copying tokens to clipboard
+-  Continue from step 12 in Option 3, onwards.
 
 ## Option 3
-- 1) Open Discord on your browser or desktop.
-- 2) Press CTRL + Shift + I to open the page source.
-- 3) Select the Network button in the top bar.
-- 4) Filter by ALL (default)
-- 5) Press CTRL + R - This will reload your discord.
-- 6) Type `science` into the filter.
-- 7) Select the one nearest the top.
-- 8) Press the button named Headers
-- 9) Scroll down to the Request Headers
-- 10) Find "authorization" in the list.
+-  Open Discord on your browser or desktop.
+-  Press CTRL + Shift + I to open the page source.
+-  Select the Network button in the top bar.
+-  Filter by ALL (default)
+-  Press CTRL + R - This will reload your discord.
+-  Type `science` into the filter.
+-  Select the one nearest the top.
+-  Press the button named Headers
+-  Scroll down to the Request Headers
+-  Find "authorization" in the list.
 NOTE: It is in alphabetical order starting from A
-- 11) Copy your authorization token
+-  Copy your authorization token
 
-- 12) Navigate to ./config/tokens.txt (If the file does not exist, you may need to make one yourself)
-- 13) Submit your token(s) into the text file split up with a newline.
-
-## Example 1 token.txt file:
-token1
-token2
-token3
-
-## Example 2 token.txt file:
-token1
+-  Navigate to ./config/tokens.txt (If the file does not exist, you may need to make one yourself)
+-  Submit your token(s) into the text file split up with a newline (pressing enter).
 
 # Help
 
