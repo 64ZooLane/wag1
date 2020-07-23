@@ -3,7 +3,7 @@
 - [About](#about)
 - [Installation](#installation)
 - [Example Usage](#example-usage)
-- [Set Your Token](#token)
+- [Set Your Token](#set-your-token)
 - [Help](#help)
 
 ## Changelog
@@ -13,7 +13,7 @@
 - You are now given the option to write all tokens to the token file
 - You are now given the option to copy all tokens to clipboard (connected with commas)
 - setup.bat will now ask you if you want to write all tokens to the token config
-- Updated README data on how to [Set Your Token](#token)
+- Updated README data on how to [Set Your Token](#set-your-token)
 - Cleaned up README (added)
 
 ### BUG FIX: (v1.0.4) 23rd July 2020
@@ -44,7 +44,7 @@ Run the setup.bat file in the main directory to create the config files and down
 If you are missing this file, open a terminal and execute `npm run setup`
 
 Navigate to config/token.json and add your user token.
-If you do not know how to access your user token, follow this link and learn how to [Set Your Token](#token)
+If you do not know how to access your user token, follow this link and learn how to [Set Your Token](#set-your-token)
 
 ## Example Usage
 
