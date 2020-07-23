@@ -1,9 +1,22 @@
 const { fork } = require("child_process");
-let { token } = require("./config/token.json");
+const { readFileSync } = require("fs");
+let tokens = [];
 
-if (Array.isArray(token) && token[1])
+try
 {
-    token.forEach((t, i) =>
+    tokens = readFileSync("./config/tokens.txt").toString().replace("\r", "").split("\n").filter(c => c);
+}
+catch (e)
+{
+    console.error(e);
+    return process.exit();
+}
+
+if (tokens.length >= 1)
+{
+    console.log("Attempting startup on " + tokens.length + " account(s)")
+
+    tokens.forEach((t, i) =>
     {
         setTimeout(() =>
         {
@@ -11,11 +24,8 @@ if (Array.isArray(token) && token[1])
         }, i * 4000)
     })
 }
-else if (typeof token == "string")
-{
-    fork("./bot.js", ["-token", token]);
-}
 else
 {
-    return console.error("[ERR] Provided token is invalid or does not exist");
+    console.error("[ERR] No token provided, run ./config/token.exe to automatically set your token or refer to README.md to manual setup");
+    return process.exit();
 }
