@@ -8,8 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "setup": "npm install --save & node ./config/setup.js & pause",
-    "start": "node index.js & pause"
+    "setup": "npm install --save & node ./config/setup.js"
   },
   "repository": {
     "type": "git",
