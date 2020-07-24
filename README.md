@@ -8,6 +8,9 @@
 
 ## Changelog
 
+### PERMANCE: (v1.0.6) 24th July 2020
+- General performance improvements
+
 ### UPDATE: (v1.0.5) 23rd July 2020 
 - Changed the way tokens are stored (uses a txt file now instead of json)
 - You are now given the option to write all tokens to the token file
