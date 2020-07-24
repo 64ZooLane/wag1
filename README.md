@@ -8,10 +8,10 @@
 
 ## Changelog
 
-### PERMANCE: (v1.0.6) 24th July 2020
+### PERMANCE: (v2.0.6) 24th July 2020
 - General performance improvements
 
-### UPDATE: (v1.0.5) 23rd July 2020 
+### UPDATE: (v2.0.5) 23rd July 2020 
 - Changed the way tokens are stored (uses a txt file now instead of json)
 - You are now given the option to write all tokens to the token file
 - You are now given the option to copy all tokens to clipboard (connected with commas)
@@ -19,20 +19,20 @@
 - Updated README data on how to [Set Your Token](#set-your-token)
 - Cleaned up README markdown
 
-### BUG FIX: (v1.0.4) 23rd July 2020
+### BUG FIX: (v2.0.4) 23rd July 2020
 - Fixed bug with multiple bot instances not logging in correctly
 
-### UPDATE: (v1.0.3) 21st July 2020
+### UPDATE: (v2.0.3) 21st July 2020
 - Added support for starting multiple bot instances.
 
-## UPDATE: (v1.0.2) 17th July 2020 
+## UPDATE: (v2.0.2) 17th July 2020 
 - Added token.exe in the config folder to copy your tokens to the clipboard
 
-### BUG FIX: (v1.0.1) 16th July 2020 
+### BUG FIX: (v2.0.1) 16th July 2020 
 - Regular wag1 command no longer ghost pings
 
-### RELEASE: (v1.0.0) 16th July 2020 
-- First Release
+### RELEASE: (v2.0.0) 16th July 2020 
+- v2.0.0 Release
 
 ## About
 
