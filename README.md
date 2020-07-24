@@ -42,6 +42,8 @@ NOTE: [NodeJS](https://nodejs.org/en/) is required to run the bot
 
 ## Installation
 
+NOTE: You must have [NodeJS](https://nodejs.org/en/) installed to run this application
+
 Run the setup.bat file in the main directory to create the config files and download all required packages.
 
 If you are missing this file, open a terminal and execute `npm run setup`
@@ -114,6 +116,7 @@ OR
 - Run setup.exe in config folder and type `y` to writing tokens to config file
 
 ### Option 2
+
 1. Open the config folder and run the token.exe file and respond with `y` with copying tokens to clipboard
 2. Continue from step 12 in Option 3, onwards.
 
