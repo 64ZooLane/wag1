@@ -38,8 +38,6 @@
 
 This tool was created to have some fun with discord's api for the final months of selfbots existing :(
 
-NOTE: [NodeJS](https://nodejs.org/en/) is required to run the bot
-
 ## Installation
 
 NOTE: You must have [NodeJS](https://nodejs.org/en/) installed to run this application
