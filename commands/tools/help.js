@@ -62,7 +62,7 @@ module.exports = {
                 return message.channel.send(embed.setDescription(`Use \`${client.config.prefix}help [commandname]\` for further command details. (Pg. ${
                     args[1] ? args[1] : "1"})\n\n${description.join("\n")}`)).then(msg => msg.delete(5000).catch(() => {})).catch(console.error);
             }
-            else return client.sendContent(message.channel, message.author, description.join("\n")).then(msg => msg.delete(5000).catch(() => {})).catch(console.error);
+            else return client.sendContent(message.channel, message.author, description.join("\n")).then(msg => msg.delete(10000).catch(() => {})).catch(console.error);
         }
     }
 };
