@@ -8,7 +8,10 @@
 
 ## Changelog
 
-### PERMANCE: (v2.0.6) 24th July 2020
+### BUG FIX: (v2.0.7) 27th July 2020
+- Help embed no longer deletes before you can read it (5s -> 10s)
+
+### UPGRADE: (v2.0.6) 24th July 2020
 - General performance improvements
 
 ### UPDATE: (v2.0.5) 23rd July 2020 
