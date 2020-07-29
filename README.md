@@ -28,7 +28,7 @@
 ### UPDATE: (v2.0.3) 21st July 2020
 - Added support for starting multiple bot instances.
 
-## UPDATE: (v2.0.2) 17th July 2020 
+### UPDATE: (v2.0.2) 17th July 2020 
 - Added token.exe in the config folder to copy your tokens to the clipboard
 
 ### BUG FIX: (v2.0.1) 16th July 2020 
