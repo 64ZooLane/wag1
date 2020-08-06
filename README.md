@@ -114,7 +114,7 @@ default by showing you page 1 of the command list.
 - Run setup.bat and type `y` when it asks to fetch and set all your user tokens
 
 OR
-- Run setup.exe in config folder and type `y` to writing tokens to config file
+- Run token.exe in config folder and type `y` to writing tokens to config file
 
 ### Option 2
 
