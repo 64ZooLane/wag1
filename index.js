@@ -4,7 +4,7 @@ let tokens = [];
 
 try
 {
-    tokens = readFileSync("./config/tokens.txt").toString().replace("\r", "").split("\n").filter(c => c);
+    tokens = readFileSync("./config/tokens.txt").toString().replace("\r", "").split("\n");
 }
 catch (e)
 {
@@ -30,7 +30,7 @@ if (tokens.length >= 1)
             console.log();
             console.log(`Starting instance ${i + 1} of ${tokens.length}`);
             fork("./bot.js", ["-token", t]);
-        }, i * 4000)
+        }, i * 5000)
     })
 }
 else
