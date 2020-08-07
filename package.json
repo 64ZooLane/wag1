@@ -1,6 +1,6 @@
 {
   "name": "wag1",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "DiscordJS SelfBot",
   "main": "index.js",
   "dependencies": {
