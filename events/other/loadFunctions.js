@@ -1,6 +1,6 @@
 module.exports = async (client) => {
 
-    const { RichEmbed } = require("discord.js");
+    const { RichEmbed } = require("@64zoolane/discord.js");
 
     client.checkPermission = function(channel, user, permission) {
         if (!client.channels.get(channel.id)) return;

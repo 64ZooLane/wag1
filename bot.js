@@ -1,4 +1,4 @@
-const { Client, Collection } = require("discord.js");
+const { Client, Collection } = require("@64zoolane/discord.js");
 let client = new Client(), token;
 
 ["commands", "aliases"].forEach(c => (client[c] = new Collection()));

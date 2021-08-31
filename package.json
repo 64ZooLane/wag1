@@ -4,7 +4,7 @@
   "description": "DiscordJS SelfBot",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^11.6.4"
+    "@64zoolane/discord.js": "^11.6.5"
   },
   "devDependencies": {},
   "scripts": {

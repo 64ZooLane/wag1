@@ -1,4 +1,4 @@
-const { RichEmbed } = require("discord.js");
+const { RichEmbed } = require("@64zoolane/discord.js");
 
 module.exports = {
   	config: {
