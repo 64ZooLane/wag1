@@ -8,6 +8,9 @@
 
 ## Changelog
 
+### BUG FIX: (v2.1.0) 31st August 2021
+- Now using fork to patch bug present in discord.js v11.6.4
+
 ### BUG FIX: (v2.0.7) 27th July 2020
 - Help embed no longer deletes before you can read it (5s -> 10s)
 
