@@ -143,5 +143,4 @@ NOTE: It is in alphabetical order starting from A
 
 ## Help
 
-If you need support setting up the bot you can contact my discord 0.o#5319
-or leave an issue on the github page. https://github.com/64ZooLane/wag1/issues
+If you need help setting up the bot or have any issues, you can leave a comment [here](https://github.com/64ZooLane/wag1/issues).
